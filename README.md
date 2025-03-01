@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💊 <span style="color: #66eeaa;">Smart Medicine App</span>
 
-## Getting Started
+## 🩺 Overview
 
-First, run the development server:
+<span style="color: #66eeaa;">Smart Medicine</span> is an AI-powered medication management platform designed to help patients stay on top of their treatment plans, improve adherence, and stay connected with caregivers, doctors, and pharmacies. 
 
+The platform offers personalized medication schedules, smart reminders, real-time adherence tracking, and seamless caregiver monitoring. Doctors and pharmacies can also access adherence data, manage medication stocks, and provide timely refill reminders.
+
+With **Next.js** at its core, Smart Medicine delivers a fast and intuitive experience, ensuring users and healthcare providers stay connected effortlessly.
+
+---
+
+## ✨ Key Features
+### Core Capabilities
+
+- <span style="color: #66eeaa;">User Registration & Onboarding</span>  
+    Secure OTP-based signup via mobile/email with personalized health profile setup, including medications, schedules, and caregiver information.
+
+- <span style="color: #66eeaa;">Smart AI-Powered Reminders</span>  
+   Automated reminders that dynamically adapt to missed doses, changing routines, and real-life scheduling conflicts.
+
+- <span style="color: #66eeaa;">Caregiver Dashboard</span>  
+   Caregivers can monitor medication adherence, receive alerts when doses are missed, and intervene to ensure the user stays on track.
+
+- <span style="color: #66eeaa;">Multi-Channel Notifications</span>  
+   Receive reminders and updates via in-app notifications, SMS, WhatsApp, and voice assistants — so no dose is forgotten.
+
+- <span style="color: #66eeaa;">Doctor & Pharmacy Access</span>  
+   Authorized doctors and pharmacies can access real-time adherence data, generate reports, and assist with treatment adjustments and refills.
+
+---
+
+## 📂 Project Setup
+
+#### 1️⃣ Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/girimohit/MedAi.git
+cd MedAi
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 2️⃣ Install dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+```
 
-## Learn More
+#### 3️⃣ Set up environment variables (see `.env.example`)
+#### 4️⃣ Run the server 
 
-To learn more about Next.js, take a look at the following resources:
+- #### For development server
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- #### For production, build the app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```
+#### 5️⃣ Open <span style="color: #66eeaa;">[http://localhost:3000](http://localhost:3000) </span> with your browser to see the result.
+---
